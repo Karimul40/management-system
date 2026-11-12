@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables (100% Ignored - Passwords and keys will never be pushed)
+.env
+.env*
+*.env
+*.env*
+**/.env
+**/.env*
+
+# Next.js build output
+.next/
+**/.next/
+build/
+dist/
+
+# Misc
+.DS_Store
+*.log
